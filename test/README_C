@@ -1,0 +1,1 @@
+../ANGLE.exe  lata4olivia-H2O-end ANGLE-H-O-H-end.dat 1000000000 2 2 3 0.35 && ../ANGLE.exe  lata4olivia-H2O-start  ANGLE-H-O-H-start.dat 1000000000 2 2 3 0.35 && gp xmin=90 xmax=120 -u 2:3 ANGLE-H-O-H-end.dat ANGLE-H-O-H-start.dat
